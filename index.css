@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-text{
+    margin-top: 300px;
+    width: 60%;
+    color: white;
+    font-weight: bold;
+    
+}
+.img-text h1{
+    font-size: 80px;
+    margin-left: 10%;
+}
+.img-text p{
+    margin-left: 10%;
+}
+.img-text button{
+ 
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10%;
+    border: none;
+
+}
+.color{
+    height: 493px;
+    background-color: black;
+    width: 83%;
+}
+.sports{
+    background-image: url('https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-banner-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+
+}
+.photo img{
+    margin-left: -10px;
+}
+.Fitness button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10%;
+    border: none;
+}
+.Fitness{
+    margin-top: 25%;
+    color: white;
+    font-weight: bold;
+}
+.shoe{
+    background-image: url('https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-banner-bg-img-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.foot img{
+   margin-top: 50px;
+   margin-left: 30px;
+}
+.foot h1{
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+}
+.foot p{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+.foot button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-top: 40px;
+    border: none;
+}
+.adventure{
+    background-image: url("https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-collection-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+}
+.adv img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.foot-1 img{
+    margin-top: 50px;
+   margin-left: 30px;
+}
+.foot-1 h1{
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+.foot-1 p{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.foot-1 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-top: 40px;
+    border: none;
+}
+.collect{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.col i{
+    font-size: 70px;
+    color: rgb(255, 81, 0);
+}
+.col h2{
+    margin-top: 20px;
+}
+.form{
+text-align: center;
+margin-top: 20%;
+font-weight: bold;
+}
+.form button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10%;
+    background-color: orangered;
+    color: white;
+    margin-left: 40px;
+    border: none;
+   
+}
+.form button:hover{
+    background-color: rgb(226, 141, 110);
+}
+.form input{
+    width: 350px;
+    height: 45px;
+}
+
+.footer{
+    background-color: black;
+    height: 700px;
+    margin-top: 80px;
+}
+.foot-up img,h5{
+    margin-top: 100px;
+    color: white;
+}
+.foot-up p{
+    color: white;
+}
+.icons i{
+    font-size: 20px;
+    padding: 6px;
+    color: white;
+    margin-top: 60px;
+}
+.icons i:hover{
+    color: orangered;
+}
+.foot-down{
+    margin-top: 120px;
+    color: white;
+}
+.foot-down h6{
+    margin-top: 20px;
+}
+.foot-down p{
+    margin-top: 60px;
+    color: gray;
+}
+.foot-down span{
+    margin-left: 55%;
+}
+
+
+
+
+/* media quries */
+@media only screen and (max-width:768px){
+
+    .w-100 {
+        width: 135% !important;
+    }
+    .img-text h1 {
+        font-size: 36px;
+        margin-left: 10%;
+    }
+    .color {
+        height: 353px;
+        background-color: black;
+        width: 100%;
+    }
+    .photo img{
+       width: 51%;
+    }
+    .sports {
+        background-image: url(https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-banner-bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 311px;
+    }
+    .shoe {
+        background-image: url(https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-banner-bg-img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 287px;
+    }
+    .Fitness {
+        margin-top: 7%;
+        color: white;
+        font-weight: bold;
+    }
+    .foot img {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .foot h1 {
+        margin-top: 19px;
+        margin-left: 30px;
+        color: white;
+    }
+    .foot-1 img {
+        margin-top: 14px;
+        margin-left: 30px;
+    }
+    .foot-1 h1 {
+        margin-top: 15px;
+        margin-left: 24px;
+        color: white;
+        font-weight: bold;
+    }
+    .adv img {
+        margin-left: 10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .adventure {
+        background-image: url(https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-collection-bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 406px;
+    }
+    .foot-up img, h5 {
+        margin-top: 54px;
+        color: white;
+    }
+    .foot-down{
+        margin-top: 90px;
+        color: white;
+    }
+    .foot-down p {
+        margin-top: 82px;
+        color: gray;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:425px){
+    .w-100 {
+        width: 150% !important;
+    }
+    .img-text h1 {
+        font-size: 34px;
+        margin-left: 10%;
+    }
+    .img-text {
+        margin-top: 57px;
+        width: 60%;
+        color: white;
+        font-weight: bold;
+    }
+    .response img{
+        padding: 15px;
+    }
+    .hello img{
+        width: 90%;
+    }
+    .color{
+        height: 1000px;
+        background-color: black;
+        width: 83%;
+    }
+    .sports {
+        background-image: url(https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-banner-bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 479px;
+    }
+    .photo img {
+        margin-left: -7px;
+    }
+    .adventure {
+        background-image: url(https://websitedemos.net/sports-wear-store-04/wp-content/uploads/sites/828/2021/04/sports-wear-store-collection-bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1001px;
+    }
+    .adv img {
+        margin-left: 16px;
+        margin-top: 29px;
+        width: 57%;
+    }
+    .form button{
+        margin-top: 20px;
+    }
+    .foot-up img, h5 {
+        margin-top: 16px;
+        color: white;
+    }
+    .foot-down h6 {
+        margin-top: 10px;
+    }
+    .footer {
+        background-color: black;
+        height: 1063px;
+        margin-top: 80px;
+    }
+}
